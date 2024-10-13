@@ -1,0 +1,14 @@
+This code provides a basic structure for a real-time parking space detection system. Here's a breakdown of the main components:
+
+Data Collection: You'll need to collect video data of parking lots and manually label parking spaces.
+Preprocessing: This step involves resizing images, normalizing pixel values, and applying any necessary filters.
+Feature Extraction: Extract relevant features from the images that will help identify parking spaces.
+Model Training: Use a machine learning algorithm (in this case, Support Vector Machine) to train on the extracted features.
+Real-time Detection: Apply the trained model to new video frames to detect parking spaces in real-time.
+
+To implement this project in Jupyter Labs, you'll need to:
+
+Install necessary libraries (OpenCV, NumPy, scikit-learn)
+Collect and prepare your dataset
+Implement each function in separate cells
+Run the main execution cell to test your system
